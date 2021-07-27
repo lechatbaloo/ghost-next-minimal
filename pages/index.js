@@ -26,21 +26,22 @@ export default function Home({ posts }) {
   return (
     <>
       <DefaultSeo
-        titleTemplate = '%s | Maelstrom'
+        titleTemplate = '%s | Eloi Cole'
         openGraph={{
           type: 'website',
           locale: 'en_EN',
-          url: 'https://blog.lyser.io',
-          site_name: 'Maelstrom',
+          url: 'https://',
+          site_name: 'Eloi Cole',
         }}
         twitter={{
-          handle: '@vincelwt',
+          handle: '@',
           // cardType: 'summary_large_image',
         }}
       />
 
       <main className="">
-        <h1 className="text-2xl my-8 font-bold">Posts</h1>
+        <h1 className="text-2xl my-8 font-bold">Thoughts on the tree of life </h1>
+        <p className="">Small description </p>
 
         <ul>
           {posts.map((post) => 
